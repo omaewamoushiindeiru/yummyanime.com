@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+     <head>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="/style.css">
+          <title>Aниме смотреть онлайн без регистрации и смс</title>
+     </head>
+     <body>
+          <header class="header">
+               <div class="logo">
+                    <img src="new-logo3.png" alt="yummyanime">
+                    <ul style="list-style-type:none;">
+                         <li>ГЛАВНАЯ</li>
+                         <li>НОВОСТИ</li>
+                         <li>КАТАЛОГ АНИМЕ</li>
+                         <li>ТОП-100 АНИМЕ</li>
+                         <li>СЛУЧАЙНОЕ АНИМЕ</li>
+                         <li>СООБЩЕСТВО</li>
+                         <li>ВИДЕО БЛОГГЕРОВ</li>
+                         <li>ПОМОЩЬ</li>
+                    </ul>
+               </div>
+          </header>
+          <div class="content">
+               <div class="img">
+                    <img src="" alt="poster">
+               </div>
+               <h1>Последнее путешествие девушек</h1>
+                    <div class="rating">
+                         <!--вставить сюда звёздочку-->
+                         <img src="star.png" alt="Star">
+                         <div class="rating-info">
+                              <span>9.04</span>
+                              <span>(1246 голосов)</span>
+                         </div>
+                    </div>
+                         <ul class="alt-names" style="list-style-type:none;">
+                              <li>Shoujo Shuumatsu Ryokou</li>
+                              <li>Girls' Last Tour</li>
+                              <li>The End Girl Trip</li>
+                              <li>Постапокалиптические сёдзе-похождения</li>
+                              <li>Девушки в последнем путешествии</li>
+                              <li>Последнее путешествие</li>
+                         </ul>
+                         <ul class="anime-details" style="list-style-type:none;">
+                              <li>Просмотров: 210 925</li>
+                              <li>Статус: вышел</li>
+                              <li>Год: 2017</li>
+                              <li>Сезон: Осень</li>
+                              <li>Возрастной рейтинг: PG-13 (от 13 лет)</li>
+                              <li>Жанр:<a href="https://yummyanime.com/catalog/category/sejnen">Сэйнэн</a> ,  <a href="https://yummyanime.com/catalog/category/priklyucheniya">Приключения</a> ,  <a href="https://yummyanime.com/catalog/category/fantastika">Фантастика</a> ,  <a href="https://yummyanime.com/catalog/category/povsednevnost">Повседневность</a> , <a href="https://yummyanime.com/catalog/category/postapokaliptika">Постапокалиптика</a></li>
+                              <li>Первоисточник: Манга</li>
+                              <li>Студия:<a href="https://yummyanime.com/catalog/studio/white-fox">White Fox</a></li>
+                              <li>Режиссер: <a href="https://yummyanime.com/director/684">Одзаки Такахару</a></li>
+                              <li>Тип: Сериал</li>
+                              <li>Серии: 12</li>
+                              <li>Перевод: Любительский (двухголосый)</li>
+                              <li>Озвучка: Aniplay (Ruslana), Anilibria (Aemi & Kanade EU)</li>
+                         </ul>
+                         <div class="anime-description">
+                              <p>Цивилизация погибла, но Чито и Юуури ещё живы. Они забираются на свой любимый байк фирмы Kettenkrad и бесцельно катаются по руинам их прежнего мира. Так проходят друг за другом безнадёжные дни в поисках еды и топлива. Но пока они вместе, даже такое жалкое существование освещается иногда редкими лучиками солнца, когда они, например, с наслаждением обедают или ищут запчасти для байка. Для двух девушек в пустом мире чувства и опыт, которого они набираются, наделяют их жизни хоть каким-то смыслом.</p>
+                         </div>
+          </div>
+          <aside class="sidebar">
+               <div class="sidebar-block">
+                    <form class="filter-block" action="page.html" method="get">
+                         <div class="filter-head">ФИЛЬТР АНИМЕ</div>
+                         <div class="filter-body">
+                              <div class="filter-cell">
+                                   <label></label>
+                              </div>
+                              <div class="filter-cell">
+                                   <label>Выбрать жанры</label><br>
+                                   <select class="genres" name="genres" placeholder="По каким жанрам искать"><!--Я пытался-->
+                                        <option value="1">
+                                             Альтернативная история
+                                        </option>
+                                        <option value="2">
+                                             Альтернативная реальность
+                                        </option>
+                                        <option value="9000">
+                                             И ещё много других
+                                        </option>
+                                   </select>
+                              </div>
+                              <div class="filter-cell">
+                                   <label>Тип аниме</label><br>
+                                   <select class="anime-type" name="anime-type">
+                                        <option value="10">
+                                             Сериал
+                                        </option>
+                                        <option value="20">
+                                             OVA
+                                        </option>
+                                        <option value="30">
+                                             Полнометражное
+                                        </option>
+                                   </select>
+                              </div>
+                              <div class="filter-cell">
+                                   <label>Статус аниме</label><br>
+                                   <select class="anime-status" name="status">
+                                        <option value="100">
+                                             Не учитывать
+                                        </option>
+                                        <option value="200">
+                                             Вышел
+                                        </option>
+                                        <option value="300">
+                                             Онгоинг
+                                        </option>
+                                        <option value="400">
+                                             Анонс
+                                        </option>
+                                   </select>
+                              </div>
+                              <div class="filter-cell">
+                                   <label>Количество серий</label><br>
+                                   <input type="text" name="from" placeholder="от">
+                                   <input type="text" name="to" placeholder="до">
+                              </div>
+                              <div class="filter-cell">
+                                   <label>Год</label><br>
+                                   <input type="text" name="from" placeholder="от">
+                                   <input type="text" name="to" placeholder="до">
+                              </div>
+                              <div class="filter-cell">
+                                   <label>Вид перевода</label><br>
+                                   <select class="anime-translate" name="translate">
+                                        <option value="1000">
+                                             Субтитры
+                                        </option>
+                                        <option value="2000">
+                                             Любительский одноголосый
+                                        </option>
+                                        <option value="3000">
+                                             Любительский многоголосый
+                                        </option>
+                                        <option value="4000">
+                                             Професиональный многоголосый
+                                        </option>
+                                        <option value="5000">
+                                             Перевод не нужен, я знаю японский
+                                        </option>
+                                   </select>
+                              </div>
+                              <div class="filter-cell">
+                                   <label>Возрастной рейтинг</label><br>
+                                        <select class="age-rating" name="age">
+                                             <option value="nan">
+                                                  Не учитывать
+                                             </option>
+                                             <option value="h">
+                                                  Хентай
+                                             </option>
+                                             <option value="n-h">
+                                                  Нехентай
+                                             </option>
+                                        </select>
+                              </div>
+                              <div class="filter-cell">
+                                   <label>Сортировать по</label><br>
+                                   <select class="anime-sort" name="sort">
+                                        <option value="ratings">
+                                             Рейтингу
+                                        </option>
+                                        <option value="alphabet">
+                                             Алфавиту (А-Я)
+                                        </option>
+                                        <option value="date">
+                                             Дате выхода (сначала новые)
+                                        </option>
+                                        <option value="views">
+                                             Количеству просмотров
+                                        </option>
+                                   </select>
+                              </div>
+                              <div class="filter-cell">
+                                   <input type="checkbox" name="only-video" value="video"> <label>Только с видео</label>
+                              </div>
+                         </div>
+                         <div class="filter-footer">
+                              <button class="send-button" type="button" name="button">Искать</button>
+                         </div>
+                    </form>
+                    %реклама_магазинов_и_видосиков%
+               </div>
+          </aside>
+          <footer>
+               <p>Все видео на сайте предоставлены только для ознакомления и не предполагают скачивание.</p>
+               <p>Тех поддержка: <a href="mailto:all.yummy.anime@gmail.com">all.yummy.anime@gmail.com</a><br>
+               Не пишите на почту сайта через ВК, ответы до ВК не доходят!
+               </p>
+          </footer>
+     </body>
+</html>
