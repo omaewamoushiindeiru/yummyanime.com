@@ -1,0 +1,42 @@
+/* Мета */
+body {
+     background-color: #e5e5e5;
+     font-family: Arial, sans-serif;
+     margin: 0 auto;
+     padding: 0;
+     max-width: 1300px;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.container {
+     display: block;
+}
+
+/* Хэдер */
+header {
+     background: #333;
+     border-top: 3px;
+     border-bottom: 3px;
+}
+
+.logo-block {
+     float: left;
+}
+
+menu ul li {
+     float: left;
+     list-style-type: none;
+}
+
+.menu {
+     float: left;
+}
+
+/* Контент */
